@@ -27,6 +27,7 @@ export const Header = () => {
 };
 
 const HeaderContainer = styled.div`
+    width: 84%;
     height: 30em;
     background-color: #F3F6F5;
     padding-inline: 4.4em; 
@@ -37,6 +38,7 @@ const HeaderContainer = styled.div`
     justify-content: space-between;
     align-items: flex-start;
     border-radius: 2em;
+    margin: 2em auto;
 `;
 
 const HeaderLeft = styled.div`
